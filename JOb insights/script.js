@@ -13,4 +13,3 @@ hamburger.addEventListener('click', () => {
     sidebar.classList.toggle('active');
 });
 
-

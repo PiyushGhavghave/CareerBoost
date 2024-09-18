@@ -14,17 +14,27 @@
   <!-- Navbar -->
   <nav class="navbar">
     <div class="container">
-      <a href="#" class="logo">
-        <img src="./assets/image.png" alt="CareerBoost Logo" />
+      <a href="../index.html" class="logo">
+        <img src="./assets/logo.png" alt="CareerBoost Logo" />
       </a>
       <ul class="nav-links">
-        <li><a href="#features">Services</a></li>
-        <li><a href="#">Insights</a></li>
-        <li><a href="#">Community</a></li>
+        <li class="dropdown">
+          <a href="#features" class="dropdown-toggle">Services</a>
+          <ul class="dropdown-menu">
+              <li><a href="./Registration/index.html">AI Job Matching</a></li>
+              <li><a href="./courses/index.html">Courses</a></li>
+              <li><a href="./dashboard/index.html#skillGap">Skill Gap Analysis</a></li>
+              <li><a href="./JOb insights/inddex.html">Real-Time Market Insights</a></li>
+              <li><a href="./Resume/resume.html">Resume Builder</a></li>
+              <li><a href="./community/index.html">Community Support</a></li>
+              <li><a href="./workshop/index.html">Workshop</a></li>
+          </ul>
+        </li>
+        <li><a href="./dashboard/index.html">Dashboard</a></li>
         <li><a href="#about">About Us</a></li>
         <li>
           <div class="navbar-button">
-            <a href="#" class="btn btn-auth">Sign Up / Login</a>
+            <a href="./Registration/index.html" class="btn btn-auth">Register / Login</a>
           </div>            
         </li>
       </ul>
@@ -38,10 +48,9 @@
   <div class="sidebar" id="sidebar">
     <ul>
         <li><a href="#features">Services</a></li>
-        <li><a href="#">Insights</a></li>
-        <li><a href="#">Community</a></li>
+        <li><a href="./dashboard/index.html">Dashboard</a></li>
         <li><a href="#about">About Us</a></li>
-        <li><a href="#">Sign Up / Login</a></li>
+        <li><a href="./Registration/index.html">Register / Login</a></li>
     </ul>
   </div>
 
@@ -49,7 +58,7 @@
   <header class="hero">
     <h1>Enhance Your Career with AI-powered Insights</h1>
     <p>Get personalized job recommendations, bridge your skill gaps, and enhance your career with smart learning pathways and real-time market insights.</p>
-    <a href="#" class="cta-btn">Start Your Journey</a>
+    <a href="./Registration/index.html" class="cta-btn">Start Your Journey</a>
   </header>
 
   <!-- About Us Section -->
@@ -68,7 +77,7 @@
     <a href="#" class="btn-learn-more">Learn More About Our Vision</a>
   </div>
   <div class="about-image">
-    <img src="./assets/d6.png.webp" alt="CareerBoost Image">
+    <img src="./assets/hero.webp" alt="CareerBoost Image">
   </div>
 </section>
 
@@ -82,16 +91,16 @@
       <i class="fas fa-robot"></i>
       <h3>AI-Powered Job Matching</h3>
       <p>Discover the best job matches based on your unique skills, preferences, and experience using AI algorithms.</p>
-      <a href="#" class="quote-button">Explore<span class="arrow">&rsaquo;</span></a>
+      <a href="./Registration/index.html" class="quote-button">Explore<span class="arrow">&rsaquo;</span></a>
 
     </div>
     
     <!-- Feature 2 -->
     <div class="feature-card">
       <i class="fas fa-road"></i>
-      <h3>Personalized Learning Paths</h3>
+      <h3>Courses</h3>
       <p>Gain tailored learning experiences that adapt to your career goals and progress over time.</p>
-      <a href="#" class="quote-button">Explore<span class="arrow">&rsaquo;</span></a>
+      <a href="./courses/index.html" class="quote-button">Explore<span class="arrow">&rsaquo;</span></a>
 
     </div>
     
@@ -100,7 +109,7 @@
       <i class="fas fa-chart-bar"></i>
       <h3>Skill Gap Analysis & Certification</h3>
       <p>Identify areas for growth and earn certifications to verify your skills and boost your career.</p>
-      <a href="#" class="quote-button">Explore<span class="arrow">&rsaquo;</span></a>
+      <a href="./dashboard/index.html#skillGap" class="quote-button">Explore<span class="arrow">&rsaquo;</span></a>
 
     </div>
     
@@ -109,7 +118,7 @@
       <i class="fas fa-bullseye"></i>
       <h3>Real-Time Market Insights</h3>
       <p>Stay ahead with up-to-date job market trends, salary data, and in-demand skills.</p>
-      <a href="#" class="quote-button">Explore<span class="arrow">&rsaquo;</span></a>
+      <a href="./JOb insights/inddex.html" class="quote-button">Explore<span class="arrow">&rsaquo;</span></a>
 
     </div>
     
@@ -118,7 +127,7 @@
       <i class="fas fa-file-alt"></i>
       <h3>Resume Builder</h3>
       <p>Create a professional resume with ease using our automated resume-building tool.</p>
-      <a href="#" class="quote-button">Explore<span class="arrow">&rsaquo;</span></a>
+      <a href="./Resume/resume.html" class="quote-button">Explore<span class="arrow">&rsaquo;</span></a>
 
     </div>
     
@@ -127,7 +136,15 @@
       <i class="fas fa-users"></i>
       <h3>Community Support</h3>
       <p>Engage with a vibrant community of professionals to share insights, advice, and mentorship opportunities.</p>
-      <a href="#" class="quote-button">Explore<span class="arrow">&rsaquo;</span></a>
+      <a href="./community/index.html" class="quote-button">Explore<span class="arrow">&rsaquo;</span></a>
+
+    </div>
+    <!-- Feature 6 -->
+    <div class="feature-card" id="feature-card7">
+      <i class="fas fa-chalkboard-teacher"></i>
+      <h3>Explore Workshop</h3>
+      <p>Participate in hands-on workshops led by industry experts, designed to help you enhance your skills, gain practical knowledge, and stay ahead in the job market.</p>
+      <a href="./workshop/index.html" class="quote-button">Explore<span class="arrow">&rsaquo;</span></a>
 
     </div>
 
@@ -139,7 +156,7 @@
   <div class="cta-container">
     <h2>Ready to Boost Your Career?</h2>
     <p>Join thousands of job seekers using CareerBoost to find their dream job and develop the skills they need for success.</p>
-    <a href="#signup" class="btn-learn-more">Get Started Now</a>
+    <a href="./Registration/index.html" class="btn-learn-more">Get Started Now</a>
   </div>
 </section>
 
@@ -157,10 +174,9 @@
       <div class="footer-col">
         <h4>Quick Links</h4>
         <ul>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#how-it-works">How It Works</a></li>
-          <li><a href="#community">Community</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#features">Services</a></li>
+        <li><a href="./dashboard/index.html">Dashboard</a></li>
+        <li><a href="#about">About Us</a></li>
         </ul>
       </div>
       <!-- Social Media Links -->
