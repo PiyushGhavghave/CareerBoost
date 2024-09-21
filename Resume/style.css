@@ -1,5 +1,3 @@
-
-
 .resume{
   font-family: 'Times New Roman', Times, serif;
 }
@@ -9,14 +7,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
-  background-color: #f9f9f9;
-  line-height: 1.6;
+  font-family: "Times New Roman", serif;
+  margin: 20px;
   font-family: 'Poppins', sans-serif;
 }
+
 html{
   scroll-behavior: smooth;
+}
+#contactDisplay{
+  margin-top: 12px;
 }
 
 /* Navbar Styling */
